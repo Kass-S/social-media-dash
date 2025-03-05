@@ -1,0 +1,11 @@
+.dark-bg{
+    background-color: hsl(230, 17%, 14%);
+}
+
+.dark-top-bg{
+    background-color: hsl(232, 19%, 15%);
+}
+
+.dark-text{
+    color: hsl(228, 34%, 66%);
+}

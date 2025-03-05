@@ -1,13 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import SocialDashDark from './components/SocialDashDark'
+import SocialDashLight from './components/SocialDashLight'
 
 function App() {
 
   return (
     <>
-      
+      <SocialDashDark />
     </>
   )
 }
