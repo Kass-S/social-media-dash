@@ -5,9 +5,9 @@ import SocialDashLight from './components/SocialDashLight'
 function App() {
 
   return (
-    <>
+    <div className='text-font'>
       <SocialDashDark />
-    </>
+    </div>
   )
 }
 

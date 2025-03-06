@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face{
+    font-family: "inter";
+    src: url(./assets/fonts/Inter-VariableFont_opsz\,wght.ttf);
+}
+
+.text-font{
+    font-family: "inter", Arial, Helvetica, sans-serif;
+}
+
+.dark-bg{
+    background-color: hsl(230, 17%, 14%);
+}
+
+.dark-top-bg{
+    background-color: hsl(232, 19%, 15%);
+}
+
+.dark-text{
+    color: hsl(228, 34%, 66%);
+}
+
+.dark-card-bg{
+    background-color: hsl(228, 28%, 20%);
+}
