@@ -58,6 +58,12 @@
 
 .dark-card-bg{
     background-color: hsl(228, 28%, 20%);
+    box-shadow: none;
+    
+}
+.dark-card-bg:hover{
+    background-color: hsl(228, 28%, 25%);
+    cursor: pointer;
 }
 
 .light-bg{
@@ -77,4 +83,9 @@
 
 .light-card-bg{
     background-color: hsl(227, 47%, 96%);
+    box-shadow: none;
+}
+.light-card-bg:hover{
+    background-color: hsl(227, 47%, 92%);
+    cursor: pointer;
 }
