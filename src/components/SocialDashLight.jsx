@@ -1,7 +1,10 @@
-import { Card } from "flowbite-react";
-import React from "react";
+import { Card, ToggleSwitch } from "flowbite-react";
+import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const SocialDashLight = () => {
+    const [switch1, setSwitch1] = useState(false);
+
   return (
     <div className="light-bg h-[100vh]">
       <div className="light-top-bg rounded-2xl py-10 pb-32 mb-2 relative">
@@ -11,12 +14,15 @@ const SocialDashLight = () => {
             <p className="light-text">Total Followers: 23,004</p>
           </div>
 
-          <p className="light-text flex justify-end">Dark Mode</p>
+          <div className='flex md:justify-end justify-between items-center'>
+            <p className="light-text flex justify-end">Dark Mode</p>
+            <Link to="darkMode"><ToggleSwitch className="px-2 pr-6 slider-bg" checked={switch1} onChange={setSwitch1} /></Link>
+          </div>
         </div>
       </div>
 
-      <div className="absolute bottom-16 mx-44">
-        <div className="grid grid-cols-4 gap-8 my-6 ">
+      <div className="absolute md:bottom-16 lg:mx-44 mx-10">
+        <div className="grid md:grid-cols-4 gap-8 my-6 grid-cols-1 sm:grid-cols-2">
           <Card className="max-w-sm light-card-bg facebook-card-top text-center px-14">
             <h5 className="text-sm font-bold tracking-tight light-text flex">
               <img
@@ -104,7 +110,7 @@ const SocialDashLight = () => {
 
         <p className="text-xl light-text-dark mb-2">Overview - Today</p>
 
-        <div className="grid grid-cols-4 gap-6 ">
+        <div className="grid md:grid-cols-4 gap-6 grid-cols-1 sm:grid-cols-2">
           <Card className="max-w-sm light-card-bg border-none ">
             <h5 className="text-sm font-bold tracking-tight light-text flex justify-between">
               Page Views

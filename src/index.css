@@ -89,3 +89,7 @@
     background-color: hsl(227, 47%, 92%);
     cursor: pointer;
 }
+
+.slider-bg{
+    background-color: linear-gradient(90deg, hsl(210, 78%, 56%) 0%, hsl(146, 68%, 55%) 100%);
+}
