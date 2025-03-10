@@ -6,7 +6,7 @@ const SocialDashDark = () => {
     const [switch1, setSwitch1] = useState(true)
 
   return (
-    <div className='dark-bg md:h-[100vh] h-[320vh]'>
+    <div className='dark-bg md:h-[100vh] h-[320vh] sm:h-[175vh]'>
         <div className='dark-top-bg rounded-2xl py-10 pb-32 mb-2 relative'>
             <div className='mx-44'>
                 <div>
